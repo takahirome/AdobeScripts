@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EE81AB110473786006B9567 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE81AB010473786006B9567 /* AudioToolbox.framework */; };
+		D0FDF9BB09941656008E4F6B /* Sweetie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0FDF9B709941656008E4F6B /* Sweetie.cpp */; };
+		D0FDF9BC09941656008E4F6B /* Sweetie_PiPL.r in Rez */ = {isa = PBXBuildFile; fileRef = D0FDF9B909941656008E4F6B /* Sweetie_PiPL.r */; };
+		D0FE579D0993C5E500139A60 /* AEGP_SuiteHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0FE579A0993C5E500139A60 /* AEGP_SuiteHandler.cpp */; };
+		D0FE579E0993C5E500139A60 /* MissingSuiteError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0FE579C0993C5E500139A60 /* MissingSuiteError.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7EE81AB010473786006B9567 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		7EE81AE010473BED006B9567 /* Sweetie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sweetie.h; path = ../Sweetie.h; sourceTree = SOURCE_ROOT; };
+		C4E618CC095A3CE80012CA3F /* Sweetie.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sweetie.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FDF9B709941656008E4F6B /* Sweetie.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Sweetie.cpp; path = ../Sweetie.cpp; sourceTree = SOURCE_ROOT; };
+		D0FDF9B909941656008E4F6B /* Sweetie_PiPL.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; name = Sweetie_PiPL.r; path = ../Sweetie_PiPL.r; sourceTree = SOURCE_ROOT; };
+		D0FE579A0993C5E500139A60 /* AEGP_SuiteHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AEGP_SuiteHandler.cpp; path = ../../../Util/AEGP_SuiteHandler.cpp; sourceTree = SOURCE_ROOT; };
+		D0FE579B0993C5E500139A60 /* AEGP_SuiteHandler.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AEGP_SuiteHandler.h; path = ../../../Util/AEGP_SuiteHandler.h; sourceTree = SOURCE_ROOT; };
+		D0FE579C0993C5E500139A60 /* MissingSuiteError.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MissingSuiteError.cpp; path = ../../../Util/MissingSuiteError.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E618CA095A3CE80012CA3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE81AB110473786006B9567 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4E6187C095A3C800012CA3F = {
+			isa = PBXGroup;
+			children = (
+				D0FDF9B709941656008E4F6B /* Sweetie.cpp */,
+				7EE81AE010473BED006B9567 /* Sweetie.h */,
+				D0FDF9B909941656008E4F6B /* Sweetie_PiPL.r */,
+				D0FE57630993C4FD00139A60 /* Supporting Code */,
+				7EE81AB010473786006B9567 /* AudioToolbox.framework */,
+				C4E6188C095A3C800012CA3F /* Products */,
+			);
+			comments = "
+
+";
+			sourceTree = "<group>";
+		};
+		C4E6188C095A3C800012CA3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E618CC095A3CE80012CA3F /* Sweetie.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FE57630993C4FD00139A60 /* Supporting Code */ = {
+			isa = PBXGroup;
+			children = (
+				D0FE579A0993C5E500139A60 /* AEGP_SuiteHandler.cpp */,
+				D0FE579B0993C5E500139A60 /* AEGP_SuiteHandler.h */,
+				D0FE579C0993C5E500139A60 /* MissingSuiteError.cpp */,
+			);
+			name = "Supporting Code";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E618CB095A3CE80012CA3F /* Sweetie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E618CE095A3CE90012CA3F /* Build configuration list for PBXNativeTarget "Sweetie" */;
+			buildPhases = (
+				C4E618C9095A3CE80012CA3F /* Sources */,
+				C4E618CA095A3CE80012CA3F /* Frameworks */,
+				C4E618EA095A3E040012CA3F /* Rez */,
+				D0445653099417B00073E055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sweetie;
+			productName = Sweetie.plugin;
+			productReference = C4E618CC095A3CE80012CA3F /* Sweetie.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E6187E095A3C800012CA3F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C4E6187F095A3C800012CA3F /* Build configuration list for PBXProject "Sweetie" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = C4E6187C095A3C800012CA3F;
+			productRefGroup = C4E6188C095A3C800012CA3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E618CB095A3CE80012CA3F /* Sweetie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0445653099417B00073E055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		C4E618EA095A3E040012CA3F /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FDF9BC09941656008E4F6B /* Sweetie_PiPL.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E618C9095A3CE80012CA3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FE579D0993C5E500139A60 /* AEGP_SuiteHandler.cpp in Sources */,
+				D0FE579E0993C5E500139A60 /* MissingSuiteError.cpp in Sources */,
+				D0FDF9BB09941656008E4F6B /* Sweetie.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C4E61880095A3C800012CA3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
+				COPY_PHASE_STRIP = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_REUSE_STRINGS = NO;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = NO;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../Headers,
+					../../../Util,
+					../../../Headers/SP,
+					../../../Resources,
+				);
+				REZ_PREPROCESSOR_DEFINITIONS = __MACH__;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		C4E618CF095A3CE90012CA3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(DEVELOPER_DIR)/SDKs/MacOSX10.5.sdk/System/Library/Frameworks\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "Sweetie.plugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Sweetie;
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E6187F095A3C800012CA3F /* Build configuration list for PBXProject "Sweetie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E61880095A3C800012CA3F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		C4E618CE095A3CE90012CA3F /* Build configuration list for PBXNativeTarget "Sweetie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E618CF095A3CE90012CA3F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4E6187E095A3C800012CA3F /* Project object */;
+}

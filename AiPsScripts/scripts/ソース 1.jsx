@@ -1,0 +1,1 @@
+﻿#target photoshopalert("Hello World.");

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpc defaultLocale="ja_JP" version="3" keySequence="37" currentLocale="ja_JP">
+  <product appid="PHSP" version="13" name="Photoshop CS6"/>
+  <target id="PHSP-13"/>
+  <ConfiguratorPanel name="tileScript" width="200" height="138" init="doInit" close="doClose" persistent="false" extensionId="com.sirok.tileScript" extensionVersion="1.0.0" menuName="tileScript" flyoutMenuAbout="$$$/Configurator/FlyoutMenu/about" minWidth="200" minHeight="80" maxWidth="200" maxHeight="80" normalIcon="Resource/sirokLogo0.png" darkNormalIcon="Resource/sirokLogo1.png">
+    <onInit><![CDATA[]]></onInit>
+    <aboutBox><![CDATA[]]></aboutBox>
+    <onClose><![CDATA[]]></onClose>
+    <eventListeners>
+      <function id="doInit" actionType="jsfunction" jsFunctionName="invoke_script">
+        <param id="onInit"/>
+      </function>
+      <function id="doClose" actionType="jsfunction" jsFunctionName="invoke_script">
+        <param id="onClose"/>
+      </function>
+    </eventListeners>
+    <ps_script_file _itemId="ps_actionscript_scriptfile" label="$$$/Configurator/ActionScript/ScriptFile/name###4" toolTip="$$$/Configurator/ActionScript/ScriptFile/desc###5" cfgVisible="$$$/Configurator/Attribute/visible/value###6" fileUrl="$$$/Configurator/key_###7" icon="ps_script_file" overIcon="ps_script_file_r" showIcon="false" x="10" y="10" width="180" height="60"/>
+    <ps_script _itemId="ps_actionscript_script" label="$$$/Configurator/ActionScript/Script/name###35" toolTip="$$$/Configurator/ActionScript/Script/desc###36" cfgVisible="$$$/Configurator/Attribute/visible/value###37" click="onClick" icon="ps_script" overIcon="ps_script_r" showIcon="true" x="10" y="96">
+      <script><![CDATA[tilePhoto();]]></script>
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="script"/>
+        </function>
+      </eventListeners>
+    </ps_script>
+  </ConfiguratorPanel>
+</gpc>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DebugPanel - textReader</title>
+<style type="text/css">
+*{
+	margin:0;padding:0;
+}
+
+#consoleTextArea{
+	font-size:11px;
+	letter-spacing:0em;
+}
+
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script language="JavaScript">	
+	function timer(){
+
+			//console.log("DDD");
+			$("#consoleTextArea").load("./log.txt", function(data){
+				
+				 data = data.replace(/\r\n/g, "<br />");
+				 data = data.replace(/(\n|\r)/g, "<br />");
+				 $('#consoleTextArea').html(data);
+			});
+			setTimeout(timer,5000);
+	};
+	timer();
+</script>
+</head>
+<body>
+<div id="consoleTextArea">
+<p>Connect Network.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpc defaultLocale="ja_JP" version="3" keySequence="7" currentLocale="ja_JP">
+  <product appid="PHSP" version="13" name="Photoshop CS6"/>
+  <target id="PHSP-13"/>
+  <ConfiguratorPanel name="tileScript" width="200" height="80" init="doInit" close="doClose" persistent="false" extensionId="com.configurator.tileScript" extensionVersion="0.7" menuName="tileScript" flyoutMenuAbout="$$$/Configurator/FlyoutMenu/about" minWidth="200" minHeight="80" maxWidth="200" maxHeight="80">
+    <onInit><![CDATA[]]></onInit>
+    <aboutBox><![CDATA[]]></aboutBox>
+    <onClose><![CDATA[]]></onClose>
+    <eventListeners>
+      <function id="doInit" actionType="jsfunction" jsFunctionName="invoke_script">
+        <param id="onInit"/>
+      </function>
+      <function id="doClose" actionType="jsfunction" jsFunctionName="invoke_script">
+        <param id="onClose"/>
+      </function>
+    </eventListeners>
+    <ps_script_file _itemId="ps_actionscript_scriptfile" label="$$$/Configurator/ActionScript/ScriptFile/name###4" toolTip="$$$/Configurator/ActionScript/ScriptFile/desc###5" cfgVisible="$$$/Configurator/Attribute/visible/value###6" fileUrl="$$$/Configurator/key_###7" icon="ps_script_file" overIcon="ps_script_file_r" showIcon="false" top="" bottom="" x="10" y="10" width="180" height="60"/>
+  </ConfiguratorPanel>
+</gpc>

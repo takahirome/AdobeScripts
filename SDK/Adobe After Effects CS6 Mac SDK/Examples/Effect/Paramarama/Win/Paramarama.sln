@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Paramarama", "Paramarama.vcproj", "{74DAC9EF-950C-4D3A-8058-A54CD0381DB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74DAC9EF-950C-4D3A-8058-A54CD0381DB4}.Debug|x64.ActiveCfg = Debug|x64
+		{74DAC9EF-950C-4D3A-8058-A54CD0381DB4}.Debug|x64.Build.0 = Debug|x64
+		{74DAC9EF-950C-4D3A-8058-A54CD0381DB4}.Debug|x86.ActiveCfg = Debug|Win32
+		{74DAC9EF-950C-4D3A-8058-A54CD0381DB4}.Debug|x86.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

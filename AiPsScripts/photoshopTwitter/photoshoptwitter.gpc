@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpc defaultLocale="ja_JP" version="3" keySequence="5" currentLocale="ja_JP">
+  <product appid="PHSP" version="13" name="Photoshop CS6"/>
+  <target id="PHSP-13"/>
+  <ConfiguratorPanel name="photoshoptwitter" width="428" height="320" init="doInit" close="doClose" persistent="True" extensionId="com.configurator.photoshoptwitter" extensionVersion="1.0.0" menuName="photoshoptwitter" flyoutMenuAbout="$$$/Configurator/FlyoutMenu/about">
+    <onInit><![CDATA[]]></onInit>
+    <aboutBox><![CDATA[]]></aboutBox>
+    <extensionDescription><![CDATA[]]></extensionDescription>
+    <extensionAuthor><![CDATA[t_ishiyama]]></extensionAuthor>
+    <onClose><![CDATA[]]></onClose>
+    <eventListeners>
+      <function id="doInit" actionType="jsfunction" jsFunctionName="invoke_script">
+        <param id="onInit"/>
+      </function>
+      <function id="doClose" actionType="jsfunction" jsFunctionName="invoke_script">
+        <param id="onClose"/>
+      </function>
+    </eventListeners>
+    <html _itemId="widget_html" toolTip="$$$/Configurator/Widget/HTML/desc" backwardToolTip="$$$/Configurator/Widget/HTML/backwardToolTip" forwardToolTip="$$$/Configurator/Widget/HTML/forwardToolTip" browseListToolTip="$$$/Configurator/Widget/HTML/browseListToolTip" locationTextToolTip="$$$/Configurator/Widget/HTML/locationTextToolTip" offlinePromptTitle="$$$/Configurator/Widget/HTML/offlinePromptTitle" offlinePromptDetail="$$$/Configurator/Widget/HTML/offlinePromptDetail" netUnAvailablePromptTitle="$$$/Configurator/Widget/HTML/netUnAvailablePromptTitle" netUnAvailablePromptDetail="$$$/Configurator/Widget/HTML/netUnAvailablePromptDetail" loadingText="$$$/Configurator/Widget/HTML/loadingText" homeText="$$$/Configurator/Widget/HTML/homeText" reloadText="$$$/Configurator/Widget/HTML/reloadText" reloadLabel="$$$/Configurator/Widget/HTML/reloadLabel" escCloseText="$$$/Configurator/Widget/HTML/escCloseText" showNavBar="$$$/Configurator/Attribute/showNavBar/value###1" location="$$$/Configurator/key_###2" homeLocation="$$$/Configurator/key_###3" width="430" height="320" cfgVisible="$$$/Configurator/Attribute/visible/value###4" x="-2" y="0">
+      <htmlText><![CDATA[$$$/Configurator/key_###5]]></htmlText>
+    </html>
+  </ConfiguratorPanel>
+</gpc>

@@ -1,0 +1,1 @@
+﻿msg:SwitchBoard.Message = new SwitchBoard.Message();msg.target = "photoshop";msg.body = "alert('Hello Photoshop')";msg.send();

@@ -1,0 +1,204 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E7144F7104714A200793D95 /* AEFX_SuiteHelper.c in Sources */ = {isa = PBXBuildFile; fileRef = 7E7144F5104714A200793D95 /* AEFX_SuiteHelper.c */; };
+		C4D30BC7095B394800E2F3B4 /* CheckoutPiPL.r in Rez */ = {isa = PBXBuildFile; fileRef = C4E61899095A3C810012CA3F /* CheckoutPiPL.r */; };
+		C4E618D2095A3D3A0012CA3F /* Checkout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E6189F095A3C810012CA3F /* Checkout.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E7144F5104714A200793D95 /* AEFX_SuiteHelper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = AEFX_SuiteHelper.c; path = ../../../Util/AEFX_SuiteHelper.c; sourceTree = SOURCE_ROOT; };
+		7E7144F6104714A200793D95 /* AEFX_SuiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AEFX_SuiteHelper.h; path = ../../../Util/AEFX_SuiteHelper.h; sourceTree = SOURCE_ROOT; };
+		7EB4276C0FBA0E9E003C7DD1 /* Checkout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Checkout.h; path = ../Checkout.h; sourceTree = SOURCE_ROOT; };
+		C4E61899095A3C810012CA3F /* CheckoutPiPL.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; name = CheckoutPiPL.r; path = ../CheckoutPiPL.r; sourceTree = SOURCE_ROOT; };
+		C4E6189F095A3C810012CA3F /* Checkout.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Checkout.cpp; path = ../Checkout.cpp; sourceTree = SOURCE_ROOT; };
+		C4E618CC095A3CE80012CA3F /* Checkout.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Checkout.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E618CD095A3CE80012CA3F /* Checkout.plugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Checkout.plugin-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E618CA095A3CE80012CA3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4E6187C095A3C800012CA3F = {
+			isa = PBXGroup;
+			children = (
+				C4E61899095A3C810012CA3F /* CheckoutPiPL.r */,
+				D05CB7DF09C797100070A8DA /* Supporting Code */,
+				C4E6189F095A3C810012CA3F /* Checkout.cpp */,
+				7EB4276C0FBA0E9E003C7DD1 /* Checkout.h */,
+				C4E6188C095A3C800012CA3F /* Products */,
+				C4E618CD095A3CE80012CA3F /* Checkout.plugin-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		C4E6188C095A3C800012CA3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E618CC095A3CE80012CA3F /* Checkout.plugin */,
+			);
+			name = Products;
+			sourceTree = SOURCE_ROOT;
+		};
+		D05CB7DF09C797100070A8DA /* Supporting Code */ = {
+			isa = PBXGroup;
+			children = (
+				7E7144F5104714A200793D95 /* AEFX_SuiteHelper.c */,
+				7E7144F6104714A200793D95 /* AEFX_SuiteHelper.h */,
+			);
+			name = "Supporting Code";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E618CB095A3CE80012CA3F /* Checkout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E618CE095A3CE90012CA3F /* Build configuration list for PBXNativeTarget "Checkout" */;
+			buildPhases = (
+				C4E618C8095A3CE80012CA3F /* Resources */,
+				C4E618C9095A3CE80012CA3F /* Sources */,
+				C4E618CA095A3CE80012CA3F /* Frameworks */,
+				C4E618EA095A3E040012CA3F /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Checkout;
+			productName = Checkout.plugin;
+			productReference = C4E618CC095A3CE80012CA3F /* Checkout.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E6187E095A3C800012CA3F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C4E6187F095A3C800012CA3F /* Build configuration list for PBXProject "Checkout" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = C4E6187C095A3C800012CA3F;
+			productRefGroup = C4E6188C095A3C800012CA3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E618CB095A3CE80012CA3F /* Checkout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4E618C8095A3CE80012CA3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		C4E618EA095A3E040012CA3F /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D30BC7095B394800E2F3B4 /* CheckoutPiPL.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E618C9095A3CE80012CA3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E618D2095A3D3A0012CA3F /* Checkout.cpp in Sources */,
+				7E7144F7104714A200793D95 /* AEFX_SuiteHelper.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C4E61880095A3C800012CA3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../Headers,
+					../../../Util,
+					../../../Headers/SP,
+					../../../Resources,
+				);
+				REZ_PREPROCESSOR_DEFINITIONS = __MACH__;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Debug;
+		};
+		C4E618CF095A3CE90012CA3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "Checkout.plugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = Checkout;
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E6187F095A3C800012CA3F /* Build configuration list for PBXProject "Checkout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E61880095A3C800012CA3F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		C4E618CE095A3CE90012CA3F /* Build configuration list for PBXNativeTarget "Checkout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E618CF095A3CE90012CA3F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4E6187E095A3C800012CA3F /* Project object */;
+}

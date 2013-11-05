@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SmartyPants", "SmartyPants.vcproj", "{FFA30E5C-80D9-4367-8F49-A551612C13D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFA30E5C-80D9-4367-8F49-A551612C13D5}.Debug|x64.ActiveCfg = Debug|x64
+		{FFA30E5C-80D9-4367-8F49-A551612C13D5}.Debug|x64.Build.0 = Debug|x64
+		{FFA30E5C-80D9-4367-8F49-A551612C13D5}.Debug|x86.ActiveCfg = Debug|Win32
+		{FFA30E5C-80D9-4367-8F49-A551612C13D5}.Debug|x86.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

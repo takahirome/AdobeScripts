@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asf locale="ja_JP" version="1.0" xmlns="http://ns.adobe.com/asf">
+  <str name="Configurator/ActionScript/Script/desc###12" translate="yes">
+    <val>タイルに並べる</val>
+  </str>
+  <str name="Configurator/ActionScript/Script/desc###21" translate="yes">
+    <val>JavaScript を実行</val>
+  </str>
+  <str name="Configurator/ActionScript/Script/name###11" translate="yes">
+    <val>タイルに並べる</val>
+  </str>
+  <str name="Configurator/ActionScript/Script/name###20" translate="yes">
+    <val>タイルに並べる</val>
+  </str>
+  <str name="Configurator/ActionScript/ScriptFile/desc###15" translate="yes">
+    <val>タイルに並べる</val>
+  </str>
+  <str name="Configurator/ActionScript/ScriptFile/desc###24" translate="yes">
+    <val>タイル状に並べる</val>
+  </str>
+  <str name="Configurator/ActionScript/ScriptFile/desc###8" translate="yes">
+    <val>JavaScript ファイルを実行</val>
+  </str>
+  <str name="Configurator/ActionScript/ScriptFile/name###14" translate="yes">
+    <val>タイルに並べる</val>
+  </str>
+  <str name="Configurator/ActionScript/ScriptFile/name###23" translate="yes">
+    <val>タイル状に並べる</val>
+  </str>
+  <str name="Configurator/ActionScript/ScriptFile/name###7" translate="yes">
+    <val>スクリプトファイル</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###13" translate="yes">
+    <val>true</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###16" translate="yes">
+    <val>true</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###18" translate="yes">
+    <val>true</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###2" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###22" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###25" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###4" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###6" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###9" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Container/Canvas/desc" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Container/TabNavigator/desc" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Container/VDividedBox/desc" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###1" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###10" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###17" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###19" translate="yes">
+    <val>TileScript Ver0.5</val>
+  </str>
+  <str name="Configurator/key_###26" translate="yes">
+    <val>Scripts/tilePhoto.jsx</val>
+  </str>
+  <str name="Configurator/key_###3" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/TabNavigator/Canvas###5" translate="yes">
+    <val>タブ 1</val>
+  </str>
+  <str name="Configurator/Widget/Text/desc" translate="yes">
+    <val/>
+  </str>
+</asf>

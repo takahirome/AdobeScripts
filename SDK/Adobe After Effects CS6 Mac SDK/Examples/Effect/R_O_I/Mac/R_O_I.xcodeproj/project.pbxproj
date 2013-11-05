@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4E618D6095A3D660012CA3F /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E618B7095A3C830012CA3F /* Carbon.framework */; };
+		C4E618D7095A3D670012CA3F /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E618B5095A3C830012CA3F /* CoreServices.framework */; };
+		C4E618EE095A3E100012CA3F /* AE_General.r in Rez */ = {isa = PBXBuildFile; fileRef = C4E618B2095A3C830012CA3F /* AE_General.r */; };
+		D00185D909A405CD00DACD09 /* PF_Suite_Helper.c in Sources */ = {isa = PBXBuildFile; fileRef = D00185D709A405CD00DACD09 /* PF_Suite_Helper.c */; };
+		D02751D109A3FB350058449D /* R_O_I_Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D02751CC09A3FB350058449D /* R_O_I_Strings.cpp */; };
+		D02751D209A3FB350058449D /* R_O_I.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D02751CE09A3FB350058449D /* R_O_I.cpp */; };
+		D02751D309A3FB350058449D /* R_O_IPiPL.r in Rez */ = {isa = PBXBuildFile; fileRef = D02751D009A3FB350058449D /* R_O_IPiPL.r */; };
+		D03E30A7095C797300F9602F /* AE_General.r in Rez */ = {isa = PBXBuildFile; fileRef = D03E30A6095C797300F9602F /* AE_General.r */; };
+		D0FE579D0993C5E500139A60 /* AEGP_SuiteHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0FE579A0993C5E500139A60 /* AEGP_SuiteHandler.cpp */; };
+		D0FE579E0993C5E500139A60 /* MissingSuiteError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0FE579C0993C5E500139A60 /* MissingSuiteError.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		C4D30B7A095B336C00E2F3B4 /* Development */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Development;
+		};
+		C4D30B7B095B336C00E2F3B4 /* Deployment */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Deployment;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXFileReference section */
+		C4E61890095A3C810012CA3F /* A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = A.h; path = /Users/bbullis/pro/doc/app/AE/SDK/Examples/Headers/A.h; sourceTree = "<absolute>"; };
+		C4E61891095A3C810012CA3F /* AE_Effect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AE_Effect.h; path = /Users/bbullis/pro/doc/app/AE/SDK/Examples/Headers/AE_Effect.h; sourceTree = "<absolute>"; };
+		C4E61892095A3C810012CA3F /* AE_EffectCB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AE_EffectCB.h; path = /Users/bbullis/pro/doc/app/AE/SDK/Examples/Headers/AE_EffectCB.h; sourceTree = "<absolute>"; };
+		C4E61893095A3C810012CA3F /* AE_EffectCBSuites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AE_EffectCBSuites.h; path = /Users/bbullis/pro/doc/app/AE/SDK/Examples/Headers/AE_EffectCBSuites.h; sourceTree = "<absolute>"; };
+		C4E61894095A3C810012CA3F /* AE_EffectSuites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AE_EffectSuites.h; path = /Users/bbullis/pro/doc/app/AE/SDK/Examples/Headers/AE_EffectSuites.h; sourceTree = "<absolute>"; };
+		C4E61895095A3C810012CA3F /* AE_Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AE_Macros.h; path = /Users/bbullis/pro/doc/app/AE/SDK/Examples/Headers/AE_Macros.h; sourceTree = "<absolute>"; };
+		C4E61896095A3C810012CA3F /* Util */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Util; path = /Users/bbullis/pro/doc/app/AE/SDK/Examples/Util; sourceTree = "<absolute>"; };
+		C4E618B0095A3C830012CA3F /* stdint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stdint.h; path = "/Developer/SDKs/MacOSX10.3.9.sdk/usr/lib/gcc/powerpc-apple-darwin7/4.0.0/include/stdint.h"; sourceTree = "<absolute>"; };
+		C4E618B2095A3C830012CA3F /* AE_General.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; name = AE_General.r; path = /Users/bbullis/pro/doc/app/AE/SDK/Examples/Resources/AE_General.r; sourceTree = "<absolute>"; };
+		C4E618B5095A3C830012CA3F /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		C4E618B7095A3C830012CA3F /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		C4E618CC095A3CE80012CA3F /* R_O_I.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = R_O_I.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00185D709A405CD00DACD09 /* PF_Suite_Helper.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = PF_Suite_Helper.c; path = ../../../Util/PF_Suite_Helper.c; sourceTree = SOURCE_ROOT; };
+		D00185D809A405CD00DACD09 /* PF_Suite_Helper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PF_Suite_Helper.h; path = ../../../Util/PF_Suite_Helper.h; sourceTree = SOURCE_ROOT; };
+		D02751CC09A3FB350058449D /* R_O_I_Strings.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = R_O_I_Strings.cpp; path = ../R_O_I_Strings.cpp; sourceTree = SOURCE_ROOT; };
+		D02751CD09A3FB350058449D /* R_O_I_Strings.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = R_O_I_Strings.h; path = ../R_O_I_Strings.h; sourceTree = SOURCE_ROOT; };
+		D02751CE09A3FB350058449D /* R_O_I.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = R_O_I.cpp; path = ../R_O_I.cpp; sourceTree = SOURCE_ROOT; };
+		D02751CF09A3FB350058449D /* R_O_I.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = R_O_I.h; path = ../R_O_I.h; sourceTree = SOURCE_ROOT; };
+		D02751D009A3FB350058449D /* R_O_IPiPL.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; name = R_O_IPiPL.r; path = ../R_O_IPiPL.r; sourceTree = SOURCE_ROOT; };
+		D03E30A6095C797300F9602F /* AE_General.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; name = AE_General.r; path = ../../../Resources/AE_General.r; sourceTree = SOURCE_ROOT; };
+		D03E30D2095C79B000F9602F /* entry.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = entry.h; path = ../../../Util/entry.h; sourceTree = SOURCE_ROOT; };
+		D03E30D5095C79C600F9602F /* Param_Utils.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Param_Utils.h; path = ../../../Util/Param_Utils.h; sourceTree = SOURCE_ROOT; };
+		D06E062C095C853B0083F192 /* DuckSuite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = DuckSuite.h; path = ../../../Util/DuckSuite.h; sourceTree = SOURCE_ROOT; };
+		D06E065F095C85960083F192 /* AE_ChannelSuites.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AE_ChannelSuites.h; path = ../../../Headers/AE_ChannelSuites.h; sourceTree = SOURCE_ROOT; };
+		D06E0671095C85D60083F192 /* ADMBasic.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ADMBasic.h; path = ../../../Headers/ADM/ADMBasic.h; sourceTree = SOURCE_ROOT; };
+		D06E0672095C85D60083F192 /* ASTypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ASTypes.h; path = ../../../Headers/ADM/ASTypes.h; sourceTree = SOURCE_ROOT; };
+		D06E0673095C85E20083F192 /* ADMDialog.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ADMDialog.h; path = ../../../Headers/ADM/ADMDialog.h; sourceTree = SOURCE_ROOT; };
+		D06E06E1095C86E60083F192 /* SPBasic.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SPBasic.h; path = ../../../Headers/SP/SPBasic.h; sourceTree = SOURCE_ROOT; };
+		D0F919E7095C8784007A611D /* AE_EffectUI.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AE_EffectUI.h; path = ../../../Headers/AE_EffectUI.h; sourceTree = SOURCE_ROOT; };
+		D0F919F8095C87AF007A611D /* SPSuites.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SPSuites.h; path = ../../../Headers/SP/SPSuites.h; sourceTree = SOURCE_ROOT; };
+		D0F91A07095C87C7007A611D /* SPTypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SPTypes.h; path = ../../../Headers/SP/SPTypes.h; sourceTree = SOURCE_ROOT; };
+		D0FE57650993C54000139A60 /* AE_AdvEffectSuites.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AE_AdvEffectSuites.h; path = ../../../Headers/AE_AdvEffectSuites.h; sourceTree = SOURCE_ROOT; };
+		D0FE57660993C54000139A60 /* AE_EffectPixelFormat.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AE_EffectPixelFormat.h; path = ../../../Headers/AE_EffectPixelFormat.h; sourceTree = SOURCE_ROOT; };
+		D0FE57670993C54000139A60 /* AE_GeneralPlug.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AE_GeneralPlug.h; path = ../../../Headers/AE_GeneralPlug.h; sourceTree = SOURCE_ROOT; };
+		D0FE57680993C54000139A60 /* AE_GeneralPlugOld.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AE_GeneralPlugOld.h; path = ../../../Headers/AE_GeneralPlugOld.h; sourceTree = SOURCE_ROOT; };
+		D0FE57690993C54000139A60 /* FIEL_Public.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FIEL_Public.h; path = ../../../Headers/FIEL_Public.h; sourceTree = SOURCE_ROOT; };
+		D0FE576A0993C54000139A60 /* PF_Masks.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PF_Masks.h; path = ../../../Headers/PF_Masks.h; sourceTree = SOURCE_ROOT; };
+		D0FE576B0993C54000139A60 /* PIFormatT.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PIFormatT.h; path = ../../../Headers/PIFormatT.h; sourceTree = SOURCE_ROOT; };
+		D0FE576C0993C54000139A60 /* PR_Public.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PR_Public.h; path = ../../../Headers/PR_Public.h; sourceTree = SOURCE_ROOT; };
+		D0FE576D0993C54000139A60 /* PT_Public.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PT_Public.h; path = ../../../Headers/PT_Public.h; sourceTree = SOURCE_ROOT; };
+		D0FE576F0993C56400139A60 /* AE_EffectSuitesHelper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AE_EffectSuitesHelper.h; path = ../../../Headers/AE_EffectSuitesHelper.h; sourceTree = SOURCE_ROOT; };
+		D0FE57700993C56400139A60 /* AE_FPF.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AE_FPF.h; path = ../../../Headers/AE_FPF.h; sourceTree = SOURCE_ROOT; };
+		D0FE57710993C56400139A60 /* AE_Hook.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AE_Hook.h; path = ../../../Headers/AE_Hook.h; sourceTree = SOURCE_ROOT; };
+		D0FE57720993C56400139A60 /* AE_IO.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AE_IO.h; path = ../../../Headers/AE_IO.h; sourceTree = SOURCE_ROOT; };
+		D0FE57730993C56400139A60 /* PlatformConfig.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PlatformConfig.h; path = ../../../Headers/PlatformConfig.h; sourceTree = SOURCE_ROOT; };
+		D0FE57740993C56400139A60 /* PlatformPragma.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PlatformPragma.h; path = ../../../Headers/PlatformPragma.h; sourceTree = SOURCE_ROOT; };
+		D0FE579A0993C5E500139A60 /* AEGP_SuiteHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AEGP_SuiteHandler.cpp; path = ../../../Util/AEGP_SuiteHandler.cpp; sourceTree = SOURCE_ROOT; };
+		D0FE579B0993C5E500139A60 /* AEGP_SuiteHandler.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AEGP_SuiteHandler.h; path = ../../../Util/AEGP_SuiteHandler.h; sourceTree = SOURCE_ROOT; };
+		D0FE579C0993C5E500139A60 /* MissingSuiteError.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MissingSuiteError.cpp; path = ../../../Util/MissingSuiteError.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E618CA095A3CE80012CA3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E618D6095A3D660012CA3F /* Carbon.framework in Frameworks */,
+				C4E618D7095A3D670012CA3F /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4E6187C095A3C800012CA3F = {
+			isa = PBXGroup;
+			children = (
+				C4E6188F095A3C810012CA3F /* Headers */,
+				D0FE57630993C4FD00139A60 /* Supporting Code */,
+				C4E61898095A3C810012CA3F /* Resources */,
+				C4E6189A095A3C810012CA3F /* Libs */,
+				C4E618AD095A3C820012CA3F /* Imported Files */,
+				D02751CE09A3FB350058449D /* R_O_I.cpp */,
+				C4E618B4095A3C830012CA3F /* Frameworks */,
+				C4E6188C095A3C800012CA3F /* Products */,
+			);
+			comments = "Region of Interest is the second Smart-ified plug-in sample in the SDK. Instead of blasting the whole layer as SmartyPants does, I thought it'd be interesting to better exercise the rect madness that is the marrow (run with me here) of the SmartFX API.";
+			sourceTree = "<group>";
+		};
+		C4E6188C095A3C800012CA3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E618CC095A3CE80012CA3F /* R_O_I.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4E6188F095A3C810012CA3F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D02751CD09A3FB350058449D /* R_O_I_Strings.h */,
+				D02751CF09A3FB350058449D /* R_O_I.h */,
+				D0FE579B0993C5E500139A60 /* AEGP_SuiteHandler.h */,
+				D00185D809A405CD00DACD09 /* PF_Suite_Helper.h */,
+				D0FE576F0993C56400139A60 /* AE_EffectSuitesHelper.h */,
+				D0FE57700993C56400139A60 /* AE_FPF.h */,
+				D0FE57710993C56400139A60 /* AE_Hook.h */,
+				D0FE57720993C56400139A60 /* AE_IO.h */,
+				D0FE57730993C56400139A60 /* PlatformConfig.h */,
+				D0FE57740993C56400139A60 /* PlatformPragma.h */,
+				D0FE57650993C54000139A60 /* AE_AdvEffectSuites.h */,
+				D0FE57660993C54000139A60 /* AE_EffectPixelFormat.h */,
+				D0FE57670993C54000139A60 /* AE_GeneralPlug.h */,
+				D0FE57680993C54000139A60 /* AE_GeneralPlugOld.h */,
+				D0FE57690993C54000139A60 /* FIEL_Public.h */,
+				D0FE576A0993C54000139A60 /* PF_Masks.h */,
+				D0FE576B0993C54000139A60 /* PIFormatT.h */,
+				D0FE576C0993C54000139A60 /* PR_Public.h */,
+				D0FE576D0993C54000139A60 /* PT_Public.h */,
+				D0F91A07095C87C7007A611D /* SPTypes.h */,
+				D0F919F8095C87AF007A611D /* SPSuites.h */,
+				D0F919E7095C8784007A611D /* AE_EffectUI.h */,
+				D03E30D5095C79C600F9602F /* Param_Utils.h */,
+				D03E30D2095C79B000F9602F /* entry.h */,
+				C4E61890095A3C810012CA3F /* A.h */,
+				C4E61891095A3C810012CA3F /* AE_Effect.h */,
+				C4E61892095A3C810012CA3F /* AE_EffectCB.h */,
+				C4E61893095A3C810012CA3F /* AE_EffectCBSuites.h */,
+				C4E61894095A3C810012CA3F /* AE_EffectSuites.h */,
+				C4E61895095A3C810012CA3F /* AE_Macros.h */,
+				C4E61896095A3C810012CA3F /* Util */,
+				D06E0673095C85E20083F192 /* ADMDialog.h */,
+				D06E0671095C85D60083F192 /* ADMBasic.h */,
+				D06E0672095C85D60083F192 /* ASTypes.h */,
+				D06E065F095C85960083F192 /* AE_ChannelSuites.h */,
+				D06E06E1095C86E60083F192 /* SPBasic.h */,
+				D06E062C095C853B0083F192 /* DuckSuite.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		C4E61898095A3C810012CA3F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D02751D009A3FB350058449D /* R_O_IPiPL.r */,
+				D03E30A6095C797300F9602F /* AE_General.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C4E6189A095A3C810012CA3F /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				C4E6189B095A3C810012CA3F /* Mach-O */,
+				C4E6189E095A3C810012CA3F /* Carbon */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		C4E6189B095A3C810012CA3F /* Mach-O */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Mach-O";
+			sourceTree = "<group>";
+		};
+		C4E6189E095A3C810012CA3F /* Carbon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Carbon;
+			sourceTree = "<group>";
+		};
+		C4E618AD095A3C820012CA3F /* Imported Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4E618B0095A3C830012CA3F /* stdint.h */,
+				C4E618B2095A3C830012CA3F /* AE_General.r */,
+			);
+			name = "Imported Files";
+			sourceTree = "<group>";
+		};
+		C4E618B4095A3C830012CA3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4E618B5095A3C830012CA3F /* CoreServices.framework */,
+				C4E618B7095A3C830012CA3F /* Carbon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0FE57630993C4FD00139A60 /* Supporting Code */ = {
+			isa = PBXGroup;
+			children = (
+				D02751CC09A3FB350058449D /* R_O_I_Strings.cpp */,
+				D00185D709A405CD00DACD09 /* PF_Suite_Helper.c */,
+				D0FE579A0993C5E500139A60 /* AEGP_SuiteHandler.cpp */,
+				D0FE579C0993C5E500139A60 /* MissingSuiteError.cpp */,
+			);
+			name = "Supporting Code";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E618CB095A3CE80012CA3F /* R_O_I */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E618CE095A3CE90012CA3F /* Build configuration list for PBXNativeTarget "R_O_I" */;
+			buildPhases = (
+				C4E618C9095A3CE80012CA3F /* Sources */,
+				C4E618CA095A3CE80012CA3F /* Frameworks */,
+				C4E618EA095A3E040012CA3F /* Rez */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "R_O_I.plugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = R_O_I.plugin;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			dependencies = (
+			);
+			name = R_O_I;
+			productName = R_O_I.plugin;
+			productReference = C4E618CC095A3CE80012CA3F /* R_O_I.plugin */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>R_O_I.plugin</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.Adobe.R_O_I.plugin</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CSResourcesFileMapped</key>
+	<string>yes</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E6187E095A3C800012CA3F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C4E6187F095A3C800012CA3F /* Build configuration list for PBXProject "R_O_I" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				C4D30B7A095B336C00E2F3B4 /* Development */,
+				C4D30B7B095B336C00E2F3B4 /* Deployment */,
+			);
+			hasScannedForEncodings = 0;
+			mainGroup = C4E6187C095A3C800012CA3F;
+			productRefGroup = C4E6188C095A3C800012CA3F /* Products */;
+			projectDirPath = "";
+			targets = (
+				C4E618CB095A3CE80012CA3F /* R_O_I */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXRezBuildPhase section */
+		C4E618EA095A3E040012CA3F /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E618EE095A3E100012CA3F /* AE_General.r in Rez */,
+				D03E30A7095C797300F9602F /* AE_General.r in Rez */,
+				D02751D309A3FB350058449D /* R_O_IPiPL.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E618C9095A3CE80012CA3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FE579D0993C5E500139A60 /* AEGP_SuiteHandler.cpp in Sources */,
+				D0FE579E0993C5E500139A60 /* MissingSuiteError.cpp in Sources */,
+				D02751D109A3FB350058449D /* R_O_I_Strings.cpp in Sources */,
+				D02751D209A3FB350058449D /* R_O_I.cpp in Sources */,
+				D00185D909A405CD00DACD09 /* PF_Suite_Helper.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C4E61880095A3C800012CA3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				COPY_PHASE_STRIP = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_REUSE_STRINGS = NO;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = NO;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../Headers,
+					../../../Util,
+					../../../Headers/SP,
+					../../../Resources,
+				);
+				REZ_PREPROCESSOR_DEFINITIONS = __MACH__;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		C4E618CF095A3CE90012CA3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "R_O_I.plugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = R_O_I;
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E6187F095A3C800012CA3F /* Build configuration list for PBXProject "R_O_I" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E61880095A3C800012CA3F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		C4E618CE095A3CE90012CA3F /* Build configuration list for PBXNativeTarget "R_O_I" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E618CF095A3CE90012CA3F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4E6187E095A3C800012CA3F /* Project object */;
+}

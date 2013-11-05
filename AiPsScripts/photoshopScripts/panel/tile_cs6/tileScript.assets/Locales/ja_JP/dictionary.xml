@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asf locale="ja_JP" version="1.0" xmlns="http://ns.adobe.com/asf">
+  <str name="Configurator/ActionScript/Script/desc###2" translate="yes">
+    <val>タイル状に並べる</val>
+  </str>
+  <str name="Configurator/ActionScript/Script/name###1" translate="yes">
+    <val>タイル状に並べる</val>
+  </str>
+  <str name="Configurator/ActionScript/ScriptFile/desc###5" translate="yes">
+    <val>JavaScriptファイルを実行</val>
+  </str>
+  <str name="Configurator/ActionScript/ScriptFile/name###4" translate="yes">
+    <val>タイル状に並べる</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###3" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###6" translate="yes">
+    <val>true</val>
+  </str>
+  <str name="Configurator/FlyoutMenu/about" translate="yes">
+    <val>情報</val>
+  </str>
+  <str name="Configurator/key_###7" translate="yes">
+    <val>Scripts/tilePhoto.jsx</val>
+  </str>
+  <str name="Configurator/watermark/htmlText" translate="yes">
+    <val>作成者 &lt;a href='http://sirok.co.jp' target='_blank'&gt;t_ishiyama&lt;/a&gt; &lt;a href='http://labs.adobe.com/technologies/configurator/' target='_blank'&gt;Configurator&lt;/a&gt; を使用</val>
+  </str>
+  <str name="Configurator/watermark/width" translate="yes">
+    <val>171</val>
+  </str>
+  <str name="Configurator/watermark/x" translate="yes">
+    <val>29</val>
+  </str>
+</asf>

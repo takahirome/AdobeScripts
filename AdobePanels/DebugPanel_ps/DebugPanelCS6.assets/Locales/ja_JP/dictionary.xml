@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asf locale="ja_JP" version="1.0" xmlns="http://ns.adobe.com/asf">
+  <str name="Configurator/Attribute/showNavBar/value###12" translate="yes">
+    <val>false</val>
+  </str>
+  <str name="Configurator/Attribute/showNavBar/value###3" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###1" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###10" translate="yes">
+    <val>true</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###15" translate="yes">
+    <val>true</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###19" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###6" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###9" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/FlyoutMenu/about" translate="yes">
+    <val>情報</val>
+  </str>
+  <str name="Configurator/key_###11" translate="yes">
+    <val>Console.log</val>
+  </str>
+  <str name="Configurator/key_###13" translate="yes">
+    <val>Html/log.html</val>
+  </str>
+  <str name="Configurator/key_###14" translate="yes">
+    <val>Html/log.html</val>
+  </str>
+  <str name="Configurator/key_###16" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###18" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###2" translate="yes">
+    <val><![CDATA[aaaa]]></val>
+  </str>
+  <str name="Configurator/key_###4" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###5" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###7" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###8" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/backwardToolTip" translate="yes">
+    <val>前のページに戻る</val>
+  </str>
+  <str name="Configurator/Widget/HTML/browseListToolTip" translate="yes">
+    <val>ヒストリーリストを表示</val>
+  </str>
+  <str name="Configurator/Widget/HTML/desc" translate="yes">
+    <val>HTML</val>
+  </str>
+  <str name="Configurator/Widget/HTML/escCloseText" translate="yes">
+    <val>Esc キーで閉じる</val>
+  </str>
+  <str name="Configurator/Widget/HTML/forwardToolTip" translate="yes">
+    <val>次のページへ進む</val>
+  </str>
+  <str name="Configurator/Widget/HTML/homeText" translate="yes">
+    <val>ホーム</val>
+  </str>
+  <str name="Configurator/Widget/HTML/loadingText" translate="yes">
+    <val>接続中...</val>
+  </str>
+  <str name="Configurator/Widget/HTML/locationTextToolTip" translate="yes">
+    <val>URL を入力して Enter キーをクリックするとその URL へ移動します</val>
+  </str>
+  <str name="Configurator/Widget/HTML/netUnAvailablePromptDetail" translate="yes">
+    <val>続行するには、インターネットに接続していること、環境設定でサービスがインターネットに接続することを許可していることを確認し、要求された URL {0} が利用可能であることを確認してください。</val>
+  </str>
+  <str name="Configurator/Widget/HTML/netUnAvailablePromptTitle" translate="yes">
+    <val>インターネットに接続していないか、要求されたアドレスが見つかりません。</val>
+  </str>
+  <str name="Configurator/Widget/HTML/offlinePromptDetail" translate="yes">
+    <val>続行するには、インターネットに接続していること、環境設定でサービスがインターネットに接続することを許可していることを確認してください。</val>
+  </str>
+  <str name="Configurator/Widget/HTML/offlinePromptTitle" translate="yes">
+    <val>インターネットに接続していません</val>
+  </str>
+  <str name="Configurator/Widget/HTML/reloadLabel" translate="yes">
+    <val>再読み込み</val>
+  </str>
+  <str name="Configurator/Widget/HTML/reloadText" translate="yes">
+    <val>クリックして接続をテストする</val>
+  </str>
+  <str name="Configurator/Widget/PanelLoader/desc" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/PanelLoader/invalidPanelPrompt" translate="yes">
+    <val>参照されたパネルが無効です。</val>
+  </str>
+  <str name="Configurator/Widget/PopupPanelButton/desc" translate="yes">
+    <val>ポップアップパネル</val>
+  </str>
+  <str name="Configurator/Widget/PopupPanelButton/name###17" translate="yes">
+    <val>ポップアップパネル</val>
+  </str>
+  <str name="Configurator/Widget/Text/desc" translate="yes">
+    <val>debugPanel</val>
+  </str>
+</asf>

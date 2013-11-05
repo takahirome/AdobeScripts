@@ -1,0 +1,1 @@
+﻿#target "Bridge"text = "<list>";text +="<data><title>sample1</title></data>";text +="<data><title>sample2</title></data>";text +="<data><title>sample3</title></data>";text +="</list>";testXML = new XML(text);
